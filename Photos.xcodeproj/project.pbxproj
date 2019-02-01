@@ -15,6 +15,7 @@
 		4A57393F220436E100779829 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A57393E220436E100779829 /* Photo.swift */; };
 		4A573943220438CB00779829 /* PhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A573942220438CB00779829 /* PhotoTableViewController.swift */; };
 		4A57394522043F9100779829 /* PhotoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A57394422043F9100779829 /* PhotoCollection.swift */; };
+		4A573948220443B400779829 /* PhotoAndMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A573947220443B400779829 /* PhotoAndMapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4A57393E220436E100779829 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		4A573942220438CB00779829 /* PhotoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewController.swift; sourceTree = "<group>"; };
 		4A57394422043F9100779829 /* PhotoCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollection.swift; sourceTree = "<group>"; };
+		4A573947220443B400779829 /* PhotoAndMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAndMapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +76,7 @@
 		4A5739392204366300779829 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				4A57393C220436C100779829 /* PhotoType.swift */,
+				4A573946220442D300779829 /* Enums */,
 				4A57393E220436E100779829 /* Photo.swift */,
 				4A57394422043F9100779829 /* PhotoCollection.swift */,
 			);
@@ -93,8 +95,17 @@
 			isa = PBXGroup;
 			children = (
 				4A573942220438CB00779829 /* PhotoTableViewController.swift */,
+				4A573947220443B400779829 /* PhotoAndMapViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A573946220442D300779829 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				4A57393C220436C100779829 /* PhotoType.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A573948220443B400779829 /* PhotoAndMapViewController.swift in Sources */,
 				4A5739282204365500779829 /* AppDelegate.swift in Sources */,
 				4A57394522043F9100779829 /* PhotoCollection.swift in Sources */,
 				4A57393D220436C100779829 /* PhotoType.swift in Sources */,
