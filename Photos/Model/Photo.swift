@@ -7,8 +7,11 @@
 //
 
 import Foundation
+import CoreLocation
 
 struct Photo {
     var name: String
     var fileName: String
+    var latitude: CLLocationDegrees
+    var longitude: CLLocationDegrees
 }

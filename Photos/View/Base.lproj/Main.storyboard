@@ -49,13 +49,27 @@
                     <view key="view" contentMode="scaleToFill" id="yF3-8m-CNu">
                         <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W1b-NG-w73">
+                                <rect key="frame" x="64" y="71" width="498" height="232"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="drK-ek-c9P">
+                                <rect key="frame" x="570" y="71" width="178" height="232"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="KzP-06-x5h"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="W1b-NG-w73" id="p0e-uF-W5Z"/>
+                        <outlet property="map" destination="drK-ek-c9P" id="jbO-Zd-Brt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Mx-im-S3X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="169" y="-375"/>
+            <point key="canvasLocation" x="168.4729064039409" y="-375.19999999999999"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6dI-Vf-XiJ">

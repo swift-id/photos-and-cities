@@ -69,15 +69,19 @@ class PhotoTableViewController: UITableViewController {
         collections.append(PhotoCollection(
                             name: "City",
                             photos: [
-                                Photo(name: "Barcelona", fileName: "Barcelona.jpg"),
-                                Photo(name: "Florence", fileName: "Florence"),
+                                Photo(name: "Barcelona", fileName: "Barcelona.jpg",
+                                      latitude: 41.403630, longitude: 2.174356),
+                                Photo(name: "Florence", fileName: "Florence",
+                                      latitude: 43.773129, longitude: 11.255515),
         ]))
         
         collections.append(PhotoCollection(
                             name: "Animal",
                             photos: [
-                                Photo(name: "Bear", fileName: "Bear.jpg"),
-                                Photo(name: "Bull", fileName: "Bull.jpg"),
+                                Photo(name: "Bear", fileName: "Bear.jpg",
+                                      latitude: 50.764259, longitude: -89.544067),
+                                Photo(name: "Bull", fileName: "Bull.jpg",
+                                      latitude: 28.394857, longitude: 84.124008),
         ]))
     }
 }
