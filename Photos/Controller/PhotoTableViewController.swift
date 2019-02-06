@@ -66,7 +66,7 @@ class PhotoTableViewController: UITableViewController {
     
     func loadData()
     {
-        collections.append(PhotoCollection(
+        collections.append(PhotoCollection( 
                             name: "City",
                             photos: [
                                 Photo(name: "Barcelona", fileName: "Barcelona.jpg",
